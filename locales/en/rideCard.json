@@ -1,0 +1,13 @@
+{
+  "dateTime": "Date & Time",
+  "driver": "Driver",
+  "carSeats": "Car Seats",
+  "paymentStatus": "Payment Status",
+  "paid": "paid",
+  "unpaid": "unpaid",
+  "select": "Select",
+  "tripStatus": "Trip Status",
+  "completed": "Completed",
+  "cancelled": "Cancelled"
+}
+

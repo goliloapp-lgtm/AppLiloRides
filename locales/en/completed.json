@@ -1,0 +1,35 @@
+{
+  "title": "Ride Completed!",
+  "cardCharged": "We have charged the ride fare to your credit card. Thank you for using Lilo!",
+  "thankYou": "Thank you for using Lilo!",
+  "rateDriver": "Rate Your Driver",
+  "leaveReview": "Leave a Review (Optional)",
+  "reviewPlaceholder": "How was your ride?",
+  "submitting": "Submitting...",
+  "submitFeedback": "Submit Feedback",
+  "addTip": "Add Tip",
+  "goHome": "Go Home",
+  "contactSupport": "Contact Support",
+  "tipModal": {
+    "title": "Tip Your Driver",
+    "enterCustomAmount": "Enter custom amount",
+    "payTip": "Pay {{amount}} Tip"
+  },
+  "alerts": {
+    "ratingRequired": "Rating Required",
+    "ratingRequiredMessage": "Please provide a rating for the driver before submitting.",
+    "invalidAmount": "Invalid Amount",
+    "invalidAmountMessage": "Please enter a valid tip amount.",
+    "paymentFailed": "Payment Failed"
+  },
+  "toasts": {
+    "feedbackSubmitted": "Feedback Submitted",
+    "thankYouFeedback": "Thank you for your feedback!",
+    "submissionError": "Submission Error",
+    "couldNotSubmit": "Could not submit your feedback. Please try again.",
+    "tipPaid": "Tip Paid",
+    "successfullyTipped": "Successfully tipped {{amount}}",
+    "supportFeature": "Support feature to be implemented"
+  }
+}
+

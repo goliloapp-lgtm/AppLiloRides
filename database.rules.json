@@ -1,0 +1,43 @@
+{
+  "rules": {
+    // ============================================
+    // NODO: conductores_activos
+    // ============================================
+    "conductores_activos": {
+      ".read": "auth != null",
+      "$conductorId": {
+        ".write": "auth != null && auth.uid === $conductorId",
+        "lat": {
+          ".validate": "newData.isNumber() && newData.val() >= -90 && newData.val() <= 90"
+        },
+        "lng": {
+          ".validate": "newData.isNumber() && newData.val() >= -180 && newData.val() <= 180"
+        },
+        "timestamp": {
+          ".validate": "newData.isNumber()"
+        }
+      }
+    },
+    // ============================================
+    // NODO: driverNotifications
+    // ============================================
+    "driverNotifications": {
+      "$driverId": {
+        // Lectura: El conductor puede leer sus notificaciones Y cualquier usuario autenticado
+        // (el pasajero necesita leer para verificar el estado de las notificaciones que creó)
+        ".read": "auth != null",
+        // Escritura: Usuarios autenticados pueden escribir notificaciones para el conductor
+        // (necesario para que el cliente pueda crear notificaciones cuando solicita un viaje)
+        ".write": "auth != null"
+      }
+    },
+    // ============================================
+    // NODO: rideRequests
+    // ============================================
+    "rideRequests": {
+      ".read": "auth != null",
+      ".write": "auth != null",
+      ".indexOn": ["userId", "driverId", "status"]
+    }
+  }
+}

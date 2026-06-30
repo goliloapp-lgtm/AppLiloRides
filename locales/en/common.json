@@ -1,0 +1,102 @@
+{
+  "buttons": {
+    "ok": "OK",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "submit": "Submit",
+    "send": "Send",
+    "back": "Back",
+    "next": "Next",
+    "yes": "Yes",
+    "no": "No",
+    "accept": "Accept",
+    "reject": "Reject",
+    "continue": "Continue",
+    "skip": "Skip"
+  },
+  "labels": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "warning": "Warning",
+    "info": "Information",
+    "email": "Email",
+    "password": "Password",
+    "phone": "Phone",
+    "name": "Name",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "address": "Address",
+    "location": "Location",
+    "date": "Date",
+    "time": "Time",
+    "status": "Status",
+    "active": "Active",
+    "inactive": "Inactive",
+    "verified": "Verified",
+    "notVerified": "Not Verified",
+    "available": "Available",
+    "unavailable": "Unavailable"
+  },
+  "errors": {
+    "required": "This field is required",
+    "invalidEmail": "Invalid email address",
+    "invalidPhone": "Invalid phone number",
+    "passwordTooShort": "Password must be at least 6 characters",
+    "passwordMismatch": "Passwords do not match",
+    "networkError": "Network error. Please try again",
+    "unknownError": "An unknown error occurred",
+    "notFound": "Not found",
+    "unauthorized": "Unauthorized access",
+    "forbidden": "Access forbidden"
+  },
+  "messages": {
+    "comingSoon": "Coming soon",
+    "featureInDevelopment": "Feature under development",
+    "noDataAvailable": "No data available",
+    "noResults": "No results found",
+    "tryAgain": "Please try again",
+    "checkConnection": "Check your internet connection"
+  },
+  "navigation": {
+    "goBack": "Go back"
+  },
+  "payment": {
+    "error": "Payment error"
+  },
+  "notifications": {
+    "rideAccepted": {
+      "title": "Driver accepted your ride!",
+      "body": "Your driver is on the way."
+    },
+    "rideRejected": {
+      "title": "Ride rejected",
+      "body": "The driver is not available. Find another driver."
+    },
+    "rideStarted": {
+      "title": "Your ride has started!",
+      "body": "Enjoy the trip."
+    },
+    "rideCancelledByDriver": {
+      "title": "Ride cancelled by driver",
+      "body": "Your driver cancelled the trip. Please request a new one."
+    },
+    "sessionTerminated": {
+      "title": "Session closed",
+      "body": "Your session was closed from another device."
+    },
+    "driverArrived": {
+      "title": "Your driver has arrived!",
+      "body": "Your driver is waiting at the pickup point."
+    },
+    "default": {
+      "title": "Lilo",
+      "body": "You have a ride update."
+    }
+  }
+}
+

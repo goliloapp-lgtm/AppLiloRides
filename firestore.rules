@@ -1,0 +1,45 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Reglas para la colección de usuarios
+    match /users/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // Reglas para la colección de viajes (trips)
+    match /trips/{tripId} {
+      // Un usuario autenticado puede crear un viaje.
+      allow create: if request.auth != null;
+
+      // Un usuario puede leer o actualizar un viaje si es el pasajero de ese viaje.
+      allow read, update: if request.auth != null && request.auth.uid == resource.data.user_id;
+    }
+
+    // Rules for customers collection
+    match /customers/{uid} {
+      allow read, write: if request.auth.uid == uid;
+
+      // Rules for checkout_sessions subcollection
+      match /checkout_sessions/{sessionId} {
+        allow create: if request.auth.uid == uid;
+        allow read, update: if request.auth.uid == uid;
+      }
+
+      // Rules for payments subcollection
+      match /payments/{paymentId} {
+        allow read: if request.auth.uid == uid;
+      }
+    }
+
+    // Rules for rating collection
+    match /rating/{ratingId} {
+      // Allow authenticated users to create a rating
+      // if the passengerId in the document matches their own user ID.
+      allow create: if request.auth != null && request.resource.data.passengerId == request.auth.uid;
+      
+      // Allow users to read ratings if they are the passenger or the driver.
+      allow read: if request.auth != null && 
+                   (resource.data.passengerId == request.auth.uid || resource.data.driverId == request.auth.uid);
+    }
+  }
+}

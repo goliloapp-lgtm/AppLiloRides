@@ -1,0 +1,35 @@
+{
+  "title": "¡Viaje Completado!",
+  "cardCharged": "Hemos cobrado la tarifa del viaje a tu tarjeta de crédito. ¡Gracias por usar Lilo!",
+  "thankYou": "¡Gracias por usar Lilo!",
+  "rateDriver": "Califica a tu Conductor",
+  "leaveReview": "Deja una Reseña (Opcional)",
+  "reviewPlaceholder": "¿Cómo fue tu viaje?",
+  "submitting": "Enviando...",
+  "submitFeedback": "Enviar Comentario",
+  "addTip": "Agregar Propina",
+  "goHome": "Ir a Inicio",
+  "contactSupport": "Contactar Soporte",
+  "tipModal": {
+    "title": "Propina para tu Conductor",
+    "enterCustomAmount": "Ingresa un monto personalizado",
+    "payTip": "Pagar Propina de {{amount}}"
+  },
+  "alerts": {
+    "ratingRequired": "Calificación Requerida",
+    "ratingRequiredMessage": "Por favor proporciona una calificación para el conductor antes de enviar.",
+    "invalidAmount": "Monto Inválido",
+    "invalidAmountMessage": "Por favor ingresa un monto de propina válido.",
+    "paymentFailed": "Pago Fallido"
+  },
+  "toasts": {
+    "feedbackSubmitted": "Comentario Enviado",
+    "thankYouFeedback": "¡Gracias por tu comentario!",
+    "submissionError": "Error al Enviar",
+    "couldNotSubmit": "No se pudo enviar tu comentario. Por favor intenta de nuevo.",
+    "tipPaid": "Propina Pagada",
+    "successfullyTipped": "Propina de {{amount}} pagada exitosamente",
+    "supportFeature": "Función de soporte por implementar"
+  }
+}
+

@@ -1,0 +1,103 @@
+{
+  "buttons": {
+    "ok": "Aceptar",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "save": "Guardar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "close": "Cerrar",
+    "submit": "Enviar",
+    "send": "Enviar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "yes": "Sí",
+    "no": "No",
+    "accept": "Aceptar",
+    "reject": "Rechazar",
+    "continue": "Continuar",
+    "skip": "Omitir"
+  },
+  "labels": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "warning": "Advertencia",
+    "info": "Información",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "phone": "Teléfono",
+    "name": "Nombre",
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "address": "Dirección",
+    "location": "Ubicación",
+    "date": "Fecha",
+    "time": "Hora",
+    "status": "Estado",
+    "active": "Activo",
+    "inactive": "Inactivo",
+    "verified": "Verificado",
+    "notVerified": "No verificado",
+    "available": "Disponible",
+    "unavailable": "No disponible"
+  },
+  "errors": {
+    "required": "Este campo es obligatorio",
+    "invalidEmail": "Correo electrónico inválido",
+    "invalidPhone": "Número de teléfono inválido",
+    "passwordTooShort": "La contraseña debe tener al menos 6 caracteres",
+    "passwordMismatch": "Las contraseñas no coinciden",
+    "networkError": "Error de red. Por favor, intenta de nuevo",
+    "unknownError": "Ocurrió un error desconocido",
+    "notFound": "No encontrado",
+    "unauthorized": "Acceso no autorizado",
+    "forbidden": "Acceso prohibido"
+  },
+  "messages": {
+    "comingSoon": "Próximamente",
+    "featureInDevelopment": "Función en desarrollo",
+    "noDataAvailable": "No hay datos disponibles",
+    "noResults": "No se encontraron resultados",
+    "tryAgain": "Por favor, intenta de nuevo",
+    "checkConnection": "Verifica tu conexión a internet"
+  },
+  "navigation": {
+    "goBack": "Volver"
+  },
+  "payment": {
+    "error": "Error de pago"
+  },
+  "notifications": {
+    "rideAccepted": {
+      "title": "¡Conductor aceptó tu viaje!",
+      "body": "Tu conductor está en camino."
+    },
+    "rideRejected": {
+      "title": "Carrera rechazada",
+      "body": "El conductor no está disponible. Busca otro conductor."
+    },
+    "rideStarted": {
+      "title": "¡Tu viaje ha comenzado!",
+      "body": "Disfruta el trayecto."
+    },
+    "rideCancelledByDriver": {
+      "title": "Viaje cancelado por el conductor",
+      "body": "Tu conductor canceló el viaje. Por favor solicita uno nuevo."
+    },
+    "sessionTerminated": {
+      "title": "Sesión cerrada",
+      "body": "Tu sesión fue cerrada desde otro dispositivo."
+    },
+    "driverArrived": {
+      "title": "¡Tu conductor ha llegado!",
+      "body": "Tu conductor te espera en el punto de recogida."
+    },
+    "default": {
+      "title": "Lilo",
+      "body": "Tienes una actualización en tu viaje."
+    }
+  }
+}
+
+

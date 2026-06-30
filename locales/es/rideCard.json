@@ -1,0 +1,13 @@
+{
+  "dateTime": "Fecha y Hora",
+  "driver": "Conductor",
+  "carSeats": "Asientos del Auto",
+  "paymentStatus": "Estado de Pago",
+  "paid": "pagado",
+  "unpaid": "no pagado",
+  "select": "Seleccionar",
+  "tripStatus": "Estado del Viaje",
+  "completed": "Completado",
+  "cancelled": "Cancelado"
+}
+

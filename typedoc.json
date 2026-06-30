@@ -1,0 +1,35 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "entryPoints": [
+    "types/index.ts",
+    "store/index.ts",
+    "lib/Map.ts",
+    "lib/realtime.ts",
+    "lib/fcm.ts",
+    "lib/profile.ts",
+    "lib/storage.ts",
+    "lib/utils.ts"
+  ],
+  "out": "docs",
+  "name": "Lilo — App Passenger",
+  "includeVersion": true,
+  "readme": "README.md",
+  "navigationLinks": {
+    "GitHub": "https://github.com/creativefeeldev/lilo-app-passenger"
+  },
+  "categorizeByGroup": true,
+  "groupOrder": ["Types", "Stores", "Functions", "*"],
+  "sort": ["source-order"],
+  "exclude": [
+    "**/node_modules/**",
+    "**/*.test.ts",
+    "**/android/**",
+    "**/ios/**",
+    "**/dist/**"
+  ],
+  "excludeExternals": true,
+  "excludePrivate": true,
+  "excludeProtected": false,
+  "skipErrorChecking": true,
+  "plugin": []
+}

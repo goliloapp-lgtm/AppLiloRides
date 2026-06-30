@@ -1,0 +1,59 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+/ErrorLogs
+#folders
+
+.antigravity.md
+
+/videos
+# Expo
+.expo/
+dist/
+web-build/
+/MD
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+.env
+
+# typescript
+*.tsbuildinfo
+.vercel
+
+# Lilo Docs & Guides
+/docs/
+/pasos.pdf
+/Lilo Passengers Term_*.pdf
+/Passenger Terms_*.pdf
+/Comportamiento en la App Passenger.md
+
+# System & App logs
+/build_log.txt
+/*.log
+/Library/
+
+# Firebase Service Account Keys
+/api/serviceAccountKey.json
+/api/serviceAccountKey*.json
+

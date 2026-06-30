@@ -1,0 +1,16 @@
+{
+  "title": "Lilo Rides",
+  "greeting": "{{name}}, ¿a dónde vas?",
+  "viewActiveRide": "Ver tu Viaje Activo",
+  "recentRides": "Viajes Recientes",
+  "destinationPlaceholder": "¿A dónde quieres ir?",
+  "currentLocation": "Tu ubicación actual",
+  "currentLocationShort": "Ubicación Actual",
+  "messages": {
+    "outOfZoneTitle": "Servicio no disponible aquí",
+    "outOfZoneDetail": "Lilo aún no opera en esta zona. Por favor selecciona una ubicación dentro de nuestra área de cobertura.",
+    "originOutOfZoneDetail": "Tu punto de recogida está fuera de nuestra zona de servicio. Por favor elige un lugar dentro de nuestra cobertura.",
+    "destinationOutOfZoneDetail": "Tu destino está fuera de nuestra zona de cobertura. Por favor elige un destino dentro del área de servicio."
+  }
+}
+

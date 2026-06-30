@@ -1,0 +1,60 @@
+{
+  "findRide": {
+    "findNow": "Find Now",
+    "findNowDisabled": "Find now"
+  },
+  "bookRide": {
+    "ridePrice": "Ride Price",
+    "pickupTime": "Pickup Time",
+    "carModel": "Car Model",
+    "carSeats": "Car Seats",
+    "noPaymentMethod": "No payment method selected. Go back and choose one."
+  },
+  "confirmRide": {
+    "searchingDrivers": "Searching for drivers...",
+    "noDrivers": "No active drivers near your location."
+  },
+  "payment": {
+    "cash": "Cash",
+    "card": "Card",
+    "continue": "Continue"
+  },
+  "riding": {
+    "loadingDetails": "Loading ride details...",
+    "driver": "Driver",
+    "carModel": "Car Model",
+    "price": "Price",
+    "eta": "ETA",
+    "from": "From",
+    "to": "To",
+    "destination": "Destination",
+    "seats": "Seats",
+    "contactSupport": "Contact Support",
+    "shareRide": "Share Ride",
+    "emergency": "Emergency",
+    "cancelRide": "Cancel Ride",
+    "cancelConfirm": "Are you sure you want to cancel this ride?",
+    "no": "No",
+    "yesCancel": "Yes, Cancel",
+    "supportFeature": "Support feature to be implemented",
+    "locationNotAvailable": "Location not available",
+    "cannotShare": "Cannot share ride without current location."
+  },
+  "pickup": {
+    "loadingDetails": "Loading ride details...",
+    "driver": "Driver",
+    "carModel": "Car Model",
+    "price": "Price",
+    "arrivesIn": "Arrives in",
+    "pickupAt": "Pickup at",
+    "destination": "Destination",
+    "contactDriver": "Contact Driver",
+    "cancelRide": "Cancel Ride",
+    "cancelConfirm": "Are you sure you want to cancel this ride?",
+    "no": "No",
+    "yesCancel": "Yes, Cancel",
+    "error": "Error",
+    "driverPhoneNotAvailable": "Driver's phone number is not available."
+  }
+}
+

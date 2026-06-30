@@ -1,0 +1,65 @@
+{
+  "title": "Perfil",
+  "subtitle": "Administra tu cuenta",
+  "header": "Lilo Rides - Perfil",
+  "greeting": "Hola, {{name}}",
+  "emailVerified": "Correo Verificado",
+  "emailNotVerified": "Correo No Verificado",
+  "loading": "Cargando perfil...",
+  "completeProfile": "¡Completa tu perfil para comenzar!",
+  "form": {
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "email": "Correo Electrónico",
+    "phoneNumber": "Número de Teléfono",
+    "firstNamePlaceholder": "Nombre",
+    "lastNamePlaceholder": "Apellido",
+    "emailPlaceholder": "Correo Electrónico",
+    "phonePlaceholder": "Número de Teléfono",
+    "saving": "Guardando...",
+    "updateProfile": "Actualizar Perfil",
+    "createProfile": "Crear Perfil",
+    "deleteAccount": "Eliminar cuenta",
+    "deleting": "Eliminando..."
+  },
+  "validation": {
+    "firstNameRequired": "El nombre es obligatorio",
+    "lastNameRequired": "El apellido es obligatorio",
+    "emailRequired": "El correo electrónico es obligatorio",
+    "emailInvalid": "Por favor ingresa un correo electrónico válido",
+    "phoneInvalid": "Por favor ingresa un número de teléfono válido",
+    "phoneMinLength": "El número de teléfono debe tener al menos 10 dígitos"
+  },
+  "messages": {
+    "profileUpdated": "¡Perfil actualizado exitosamente!",
+    "accountDeleted": "Tu cuenta ha sido eliminada.",
+    "deleteFailed": "Error al eliminar la cuenta.",
+    "deleteRequiresRecentLogin": "Por seguridad: Cierra sesión, vuelve a iniciar sesión e intenta eliminar tu cuenta nuevamente.",
+    "deleteConfirmationTitle": "Eliminar Cuenta",
+    "deleteConfirmationDetail": "¿Estás seguro de que deseas eliminar tu cuenta permanentemente? Esta acción no se puede deshacer.",
+    "cancel": "Cancelar",
+    "confirmDelete": "Eliminar",
+    "unexpectedError": "Ocurrió un error inesperado",
+    "notificationsComingSoon": "Notificaciones - Próximamente",
+    "securityComingSoon": "Seguridad - Próximamente",
+    "aboutComingSoon": "Acerca de - Próximamente",
+    "deletionCodeSent": "Revisa tu correo para obtener el código de eliminación.",
+    "enterDeletionCode": "Confirmar Eliminación de Cuenta",
+    "deletionCodeInstructions": "Ingresa el código que te enviamos a tu correo para eliminar tu cuenta permanentemente.",
+    "codePlaceholder": "Ingresa el código"
+  },
+  "options": {
+    "language": "Idioma",
+    "helpSupport": "Ayuda y Soporte",
+    "termsOfService": "Términos del Servicio",
+    "about": "Acerca de"
+  },
+  "languageSelector": {
+    "title": "Seleccionar Idioma",
+    "subtitle": "Elige tu idioma preferido",
+    "english": "English",
+    "spanish": "Español",
+    "changed": "Idioma cambiado exitosamente"
+  }
+}
+

@@ -1,0 +1,65 @@
+{
+  "title": "Profile",
+  "subtitle": "Manage your account",
+  "header": "Lilo Rides - Profile",
+  "greeting": "Hello, {{name}}",
+  "emailVerified": "Email Verified",
+  "emailNotVerified": "Email Not Verified",
+  "loading": "Loading profile...",
+  "completeProfile": "Complete your profile to get started!",
+  "form": {
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phoneNumber": "Phone Number",
+    "firstNamePlaceholder": "First Name",
+    "lastNamePlaceholder": "Last Name",
+    "emailPlaceholder": "Email",
+    "phonePlaceholder": "Phone Number",
+    "saving": "Saving...",
+    "updateProfile": "Update Profile",
+    "createProfile": "Create Profile",
+    "deleteAccount": "Delete account",
+    "deleting": "Deleting..."
+  },
+  "validation": {
+    "firstNameRequired": "First name is required",
+    "lastNameRequired": "Last name is required",
+    "emailRequired": "Email is required",
+    "emailInvalid": "Please enter a valid email",
+    "phoneInvalid": "Please enter a valid phone number",
+    "phoneMinLength": "Phone number must be at least 10 digits"
+  },
+  "messages": {
+    "profileUpdated": "Profile updated successfully!",
+    "accountDeleted": "Your account has been deleted.",
+    "deleteFailed": "Failed to delete account.",
+    "deleteRequiresRecentLogin": "Security requirement: Please log out, log in again, and retry deleting your account.",
+    "deleteConfirmationTitle": "Delete Account",
+    "deleteConfirmationDetail": "Are you sure you want to permanently delete your account? This action cannot be undone.",
+    "cancel": "Cancel",
+    "confirmDelete": "Delete",
+    "unexpectedError": "An unexpected error occurred",
+    "notificationsComingSoon": "Notifications - Coming soon",
+    "securityComingSoon": "Security - Coming soon",
+    "aboutComingSoon": "About - Coming soon",
+    "deletionCodeSent": "Check your email for the deletion code.",
+    "enterDeletionCode": "Confirm Account Deletion",
+    "deletionCodeInstructions": "Enter the code we sent to your email to permanently delete your account.",
+    "codePlaceholder": "Enter code"
+  },
+  "options": {
+    "language": "Language",
+    "helpSupport": "Help & Support",
+    "termsOfService": "Terms of Service",
+    "about": "About"
+  },
+  "languageSelector": {
+    "title": "Select Language",
+    "subtitle": "Choose your preferred language",
+    "english": "English",
+    "spanish": "Español",
+    "changed": "Language changed successfully"
+  }
+}
+
